@@ -9,7 +9,7 @@ github_username:  mckennagalvin
 
 # Build settings
 markdown: kramdown
-highlighter: rogue
+highlighter: rouge
 
 # Pagination
 paginate: 100
