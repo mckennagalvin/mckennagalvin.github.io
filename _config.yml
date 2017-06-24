@@ -1,0 +1,25 @@
+# Site settings
+title: mckenna galvin
+email: mckennagalvin@me.com
+description:
+baseurl:  # the subpath of your site, e.g. /blog/
+url:  # the base hostname & protocol for your site
+twitter_username: mckennagalvin
+github_username:  mckennagalvin
+
+# Build settings
+markdown: kramdown
+highlighter: rogue
+
+# Pagination
+paginate: 100
+paginate_path: "/blog/page:num/"
+
+# Other pages
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+
+# Gems
+gems: [jekyll-paginate]
